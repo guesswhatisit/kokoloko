@@ -1,0 +1,321 @@
+@import 'font.css';
+*{
+padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+  font-family: 'Montserrat';
+ font-weight: 400;
+}
+a{
+ text-decoration: none;
+}
+ul{
+ list-style: none;
+}
+.container{
+ max-width: 1300px;
+ width: 100%;
+ padding: 0 15px;
+ margin: 0 auto;
+}
+.header__logo{
+color: rgb(50, 50, 50);
+line-height: 23px;
+font-size: 32px;
+font-weight: 700;
+}
+.header__nav{
+display: flex;
+gap: 170px;
+}
+.left__side{
+ display: flex;
+ gap:50px ;
+}
+.header__list{
+display: flex;
+gap: 40px;
+}
+.header__li{
+ color: rgb(50, 50, 50);
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+}
+.icon__list{
+display: flex;
+
+gap: 40px;
+}
+.verh{
+display: flex;
+
+}
+.left__part{
+flex-direction: column;
+}
+.section1 .container{
+display: flex;
+}
+.item{
+display: flex;
+gap: 55px;
+text-align: center;
+border-radius: 10px;
+background: rgb(225, 225, 225);
+margin: 30px;
+position: relative;
+align-items: center;
+padding: 26px;
+}
+.item__text{
+color: rgb(50, 50, 50);
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+padding: 10px;
+}
+.cherniy__text{
+color: rgb(0, 0, 0);
+ font-size: 16px;
+font-weight: 700;
+margin: 0px 0;
+}
+.gantelya{
+max-height:618px ;
+width: 100%;
+padding: 100px;
+}
+.main__title{
+color: rgb(0, 0, 0);
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 2.2px;
+text-transform: uppercase;
+text-align: center;
+}
+.main__catalog{
+display: flex;
+flex-wrap: wrap;
+gap:24px ;
+}
+
+.item__1{
+ display: flex;
+ gap: 55px;
+ text-align: center;
+ border-radius: 10px;
+ background: rgb(225, 225, 225);
+margin: 30px;
+ position: relative;
+align-items: center;
+/*  padding: 26px; */
+flex-direction: column;
+width: 300px;
+                  }
+.absolute{
+position: absolute;
+width:70px;
+max-width: 100px;
+height: 50px;
+left: 10px;
+border-radius: 10px;
+background: rgb(50, 50, 50);
+}
+.absolute__text{
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-transform: capitalize;      
+text-align: center; 
+}
+.item__1 img{
+padding: 20px;
+}
+.absolute__2{
+position: absolute;
+border-radius: 10px;
+background: rgb(255, 255, 255);
+right: 20px;
+display: flex;
+flex-direction: column;
+}
+.span1{
+left: 20px;
+}
+.footer{
+                  background: rgb(50, 50, 50);
+                  width: 1920px;
+height: 500px;
+display: flex;
+align-items: center;
+}
+            
+.niz__title{
+    color: rgb(50, 50, 50);
+font-size: 30px;
+line-height: 37px;
+letter-spacing: 0px;
+display: flex;
+align-items: center;
+}
+.niz__titles{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.niz__titlez{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.niz{
+    background-image: url('../img/zad1.png');
+    background-repeat: no-repeat;
+    width: 636px;
+height: 470px;
+margin: 72px 0 60px;
+position: relative;
+display: flex;
+}
+.niz__nazvanie{
+    color: rgb(255, 255, 255);
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+position: absolute;
+display: flex;
+height: 20px;
+width: 466px;
+left: 60px;
+right: 110px;
+top: 110px;
+bottom: 306px;
+}
+.niz__text{
+    color: rgb(225, 225, 225);
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 462px;
+left: 64px;
+right: 110px;
+top: 194px;
+bottom: 180px;
+}
+.vremya{
+    position: absolute;
+    height: 20px;
+left: 90px;
+right: 406px;
+top: 390px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+line-height: 20px;
+}
+.oklock{
+position: absolute;
+    height: 20px;
+left: 60px;
+right: 406px;
+top: 390px;    
+}
+.sovet{
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(50, 50, 50);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+width: 150px;
+height: 50px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+left: 20px;
+right: -20px;
+top: 20px;
+bottom: -20px;
+position: absolute;
+}
+.section2{
+    display: flex;
+    gap: 24px;
+
+}
+.niz2{
+    background-image: url('../img/zad2.png');
+    background-repeat: no-repeat;
+    width: 636px;
+height: 470px;
+margin: 72px 0 60px;
+position: relative;
+display: flex;
+}
+.footer{
+    display: flex;
+    position: relative;
+}
+.footer__logo{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 23px;
+margin-bottom: 40px;
+}
+.footer__link{
+    display: flex;
+    color: rgb(255, 255, 255);
+font-size: 18px;
+line-height: 22px;
+margin: 15px;
+flex-direction: row;
+align-items: center;
+}
+.section__left{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.towari{
+    color: rgb(255, 255, 255);
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 2.2px;
+}
+.section__right{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer__nav{
+    position: relative;
+    
+}
+
+.section2__title{
+margin-left: 100px;
+color: rgb(255, 255, 255);
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 2.2px;
+}
+.text{
+    width: 526px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 2.2px;
+
+
+}
